@@ -20,7 +20,7 @@ let square;
 let personaje;
 
 function preload(){
-    this.load.image('player', '../img/personaje.png');
+    this.load.image('player', 'personaje.png');
 
 }
 
@@ -49,5 +49,6 @@ function create() {
     }
 
   });
+
 
 }
